@@ -33,6 +33,7 @@ Google Colab with NVCC Compiler
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 ```
+
 ```
 %%cuda
 #include <cuda_runtime.h>
